@@ -1,0 +1,29 @@
+name: notes_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  animated_notch_bottom_bar: ^1.0.2
+  animated_icon: ^0.0.9
+  provider: ^6.1.2
+  animated_floating_buttons: ^0.0.2
+  image_picker: ^1.0.7
+  circular_menu: ^2.0.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
